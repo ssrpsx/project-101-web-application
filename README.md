@@ -1,4 +1,5 @@
-# 🗓 This project was made before university.
+# 💻 Learning-101-Javascript
+🗓 This project was made before university.
 - Project Portfolio : https://portfolio-sarawut.netlify.app/
 
 - Project Trips from Bangkok : https://tripsformbangkok.netlify.app/
