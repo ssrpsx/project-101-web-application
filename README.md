@@ -1,4 +1,4 @@
-# 💻 Learning-101-Javascript
+# 💻 Project-101-Web-Application 
 🗓 This project was made before university.
 - Project Portfolio : https://portfolio-sarawut.netlify.app/
 
