@@ -22,6 +22,7 @@ A showcase of the websites' functionality and design when viewed on a desktop sc
 ## 📱 Mobile View (GIF Animation)
 An overview of the website's appearance when accessed on mobile devices. Animated GIFs demonstrate the actual behavior and transitions within the websites.
 
+
 <div align="center">
 
 <table>
@@ -36,4 +37,3 @@ An overview of the website's appearance when accessed on mobile devices. Animate
 </table>
 
 </div>
----
