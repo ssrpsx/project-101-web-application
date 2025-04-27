@@ -24,11 +24,11 @@ An overview of the website's appearance when accessed on mobile devices. Animate
 
 <table>
   <tr>
-    <td style="margin:15px;">
-      <img src="readme-image/mobile-portfolio-gif.gif" alt="Mobile Portfolio" width="300px">
+    <td>
+      <img src="readme-image/mobile-portfolio-gif.gif" alt="Mobile Portfolio" width="300px" style="margin:15px;">
     </td>
-    <td style="margin:15px;">
-      <img src="readme-image/mobile-tips-gif.gif" alt="Mobile Trips" width="300px">
+    <td>
+      <img src="readme-image/mobile-tips-gif.gif" alt="Mobile Trips" width="300px" style="margin:15px;">
     </td>
   </tr>
 </table>
