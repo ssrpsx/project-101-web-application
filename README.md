@@ -9,7 +9,7 @@ This project was created before entering university as a way to practice and str
 ---
 
 ## 🖥 Desktop View (GIF Animation)
-A showcase of the websites' functionality and design when viewed on a desktop screen, using GIF animations to illustrate interactions.
+A showcase of the websites functionality and design when viewed on a desktop screen, using GIF animations to illustrate interactions.
 
 ### 📌 Portfolio Website
 <img src="readme-image/desktop-portfolio-gif.gif" alt="Desktop Portfolio">
