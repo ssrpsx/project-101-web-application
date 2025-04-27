@@ -4,11 +4,9 @@ This project was created before entering university as a way to practice and str
 - Project Portfolio: https://portfolio-sarawut.netlify.app/
 - Project Trips from Bangkok: https://tripsformbangkok.netlify.app/
 
-<br> <!-- Adds extra space -->
+<br><br>  <!-- Adds extra space -->
 
 ---
-
-<br> <!-- Adds extra space -->
 
 ## 🖥 Desktop View (GIF Animation)
 A showcase of the websites' functionality and design when viewed on a desktop screen, using GIF animations to illustrate interactions.
