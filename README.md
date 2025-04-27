@@ -1,5 +1,5 @@
 # 💻 Project-101-Web-Application 
-** This project was created before entering university as a way to practice and strengthen my web development skills. **
+**This project was created before entering university as a way to practice and strengthen my web development skills.**
 
 - Project Portfolio: https://portfolio-sarawut.netlify.app/
 - Project Trips from Bangkok: https://tripsformbangkok.netlify.app/
