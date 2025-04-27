@@ -19,6 +19,8 @@ A showcase of the websites functionality and design when viewed on a desktop scr
 ### 📌 Trips from Bangkok Website
 <img src="readme-image/desktop-tips-gif.gif" alt="Desktop Trips">
 
+<br>  <!-- Adds extra space -->
+
 ---
 
 ## 📱 Mobile View (GIF Animation)
