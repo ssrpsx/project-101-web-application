@@ -23,7 +23,7 @@ A showcase of the websites' functionality and design when viewed on a desktop sc
 An overview of the website's appearance when accessed on mobile devices. Animated GIFs demonstrate the actual behavior and transitions within the websites.
 
 <div style="display: flex; justify-content: space-between; gap: 30px;">
-  <img src="readme-image/mobile-portfolio-gif.gif" alt="Mobile Portfolio" width="45%">
+  <img src="readme-image/mobile-portfolio-gif.gif" alt="Mobile Portfolio" width="45%" style="margin-right:30px;">
   <img src="readme-image/mobile-tips-gif.gif" alt="Mobile Trips" width="45%">
 </div>
 
