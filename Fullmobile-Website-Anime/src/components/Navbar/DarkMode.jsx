@@ -15,8 +15,7 @@ function DarkModeToggle() {
 
     return (
           <div onClick={() => setdarkmode(!darkmode)}  className='group px-4 py-2 bg-white rounded-full cursor-pointer flex gap-2 items-center justify-between dark:bg-gray-800 duration-200'>
-              {!darkmode ? (
-                <MdOutlineLightMode className='text-black text-xl' />) : (<MdOutlineDarkMode className='text-white text-xl'/>)}
+              {!darkmode ? (<MdOutlineLightMode className='text-black text-xl' />) : (<MdOutlineDarkMode className='text-white text-xl'/>)}
           </div>
   )
 }

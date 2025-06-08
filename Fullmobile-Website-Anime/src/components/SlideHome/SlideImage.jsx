@@ -1,4 +1,5 @@
 import React from 'react'
+import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Image1 from '../../assets/SlideImages/The-Return-of-the-Disaster-Class-Hero-2.jpg'
@@ -10,7 +11,6 @@ import Image6 from '../../assets/SlideImages/Life-of-a-Magic-Academy-Mage.jpg'
 import Image7 from '../../assets/SlideImages/Infinite-Mage.jpg'
 import Image8 from '../../assets/SlideImages/Duke-Pendragon-Master-of-the-White-Dragon-Up-Manga.jpg'
 import Image9 from '../../assets/SlideImages/Damn-Reincarnation.jpg'
-import Slider from 'react-slick'
 
 const data = [
     {
@@ -79,40 +79,50 @@ const data = [
 ]
 
 function SlideImage() {
-    var settings = {
+const settings = {
     dots: true,
     arrows: false,
     infinite: true,
-    speed: 500,
+    speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplaySpeed: 4000,
+    autoplay: true,
+    autoplaySpeed: 1000,
     cssEase: "ease-in-out",
     pauseOnHover: true,
-    pauseOnFocus: true
-  };
+    pauseOnFocus: true,
+    dotsClass: "slick-dots custom-dot-class", // ใช้ custom class
+    appendDots: dots => (
+        <div className="relative mt-6">
+            <ul className="flex justify-center items-center gap-0">{dots}</ul>
+        </div>
+    ),
+    customPaging: i => (
+        <div className="w-3 h-3 bg-black dark:bg-white rounded-full opacity-40 transition duration-300"></div>
+    )
+};
     return (
-        <div className='h-screen bg-slate-600 pt-10'>
-            <div className='h-auto w-auto m-auto border justify-center'>
+        <div className='h-screen flex justify-center items-center'>
+            <div className='w-[1280px] max-w-full px-1'>
                 <Slider {...settings}>
                     {data.map((dataimage) => (
-                        <div key={dataimage.id} className='flex flex-col sm:flex-row items-center gap-4 px-4 py-6'>
-                            <a href={dataimage.link}>
+                        <div key={dataimage.id} className='flex flex-col sm:flex-row justify-center items-center rounded-md gap-4 px-4 py-6'>
+                            <a href={dataimage.link} className='rounded-md'>
                                 <img
                                   src={dataimage.img}
                                   alt={dataimage.name}
                                   className='h-auto rounded-md object-contain'
                                 />
                             </a>
-                            <div className='text-white max-w-xl'>
-                                <h2 className='text-2xl font-bold mb-2'>{dataimage.name}</h2>
+                            <div className='text-black dark:text-white max-w-xl'>
+                                <h2 className='text-2xl font-bold my-2.5'>{dataimage.name}</h2>
                                 <p className='text-sm'>{dataimage.desciption}</p>
                             </div>
                         </div>
                     ))}
                 </Slider>
-
             </div>
+            <div></div>
         </div>
     )
 }
