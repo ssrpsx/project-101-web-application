@@ -40,7 +40,7 @@ const Menu = [
 function navbar() {
   return (
     <>
-      <div className='shadow-md bg-white text-gray-800 dark:bg-gray-800 dark:text-white dark:shadow-[0_6px_6px_-1px_rgba(59,130,200,0.5)] z-40'>
+      <div className='w-full fixed shadow-md bg-white text-gray-800 dark:bg-gray-800 dark:text-white dark:shadow-[0_6px_6px_-1px_rgba(59,130,200,0.5)] z-40'>
         <div className='bg-[#4E71FF] dark:bg-[#5313c4] px-7 py-5'>  
           <div className="container mx-auto flex justify-between items-center">
             <div>

@@ -1,4 +1,6 @@
 import React from 'react'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import Image1 from '../../assets/SlideImages/The-Return-of-the-Disaster-Class-Hero-2.jpg'
 import Image2 from '../../assets/SlideImages/Swordmasters-Youngest-Son-2.jpg'
 import Image3 from '../../assets/SlideImages/Return-of-the-Frozen-Player-1.jpg'
@@ -77,22 +79,42 @@ const data = [
 ]
 
 function SlideImage() {
-  return (
-    <div>
-        <div>
-            {data.map((dataimage) =>(
-                <a href={dataimage.link} key={dataimage.id}>
-                    <img src={dataimage.img} alt={dataimage.name} />
-                    <h1>{dataimage.name}</h1>
-                    <span>{dataimage.desciption}</span>
-                </a>
-            ))}
+    var settings = {
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplaySpeed: 4000,
+    cssEase: "ease-in-out",
+    pauseOnHover: true,
+    pauseOnFocus: true
+  };
+    return (
+        <div className='h-screen bg-slate-600 pt-10'>
+            <div className='h-auto w-auto m-auto border justify-center'>
+                <Slider {...settings}>
+                    {data.map((dataimage) => (
+                        <div key={dataimage.id} className='flex flex-col sm:flex-row items-center gap-4 px-4 py-6'>
+                            <a href={dataimage.link}>
+                                <img
+                                  src={dataimage.img}
+                                  alt={dataimage.name}
+                                  className='h-auto rounded-md object-contain'
+                                />
+                            </a>
+                            <div className='text-white max-w-xl'>
+                                <h2 className='text-2xl font-bold mb-2'>{dataimage.name}</h2>
+                                <p className='text-sm'>{dataimage.desciption}</p>
+                            </div>
+                        </div>
+                    ))}
+                </Slider>
+
+            </div>
         </div>
-        <div>
-            <button></button>
-        </div>
-    </div>
-  )
+    )
 }
 
 export default SlideImage
